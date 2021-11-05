@@ -11,7 +11,19 @@ body {
     padding-top: 2vh;
     background-color: #ccc;
     color: black;
+    text-align: center;
 }    
+
+.directions{
+    padding-top: 20px;
+    width: 30vw;
+    text-align: left;
+}
+
+
+li {
+    font-size: 12px; 
+}
 
 .typeinput {
     height: 20vh;
