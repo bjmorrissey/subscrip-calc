@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2vh;
+    background-color: #ccc;
+    color: black;
+}    
+
+.typeinput {
+    height: 20vh;
+    width: 50vw;
+    /* margin: 10px; */
+}
+
+#input {
+    height: 25vh;
+}
+
+#submitButton {
+    margin: 20px auto ;
+    padding: 20px;
+    background-color: orange;
+    width: 25%; 
+    text-align: center;
+    cursor: pointer;
+    transition: all .1s ease-in;
+}
+
+#submitButton:hover {
+ 
+    background-color: red;
+    color: white;
+    transform: scale(1.03);
+    box-shadow: 5px 5px 5px rgba(100, 100, 100, .5);
+}
+
+.calculatedArea {
+    /* margin-top: 20px; */
+    border: 1px solid black;
+    width: 50vw;
+    height: 20vh;
+    color: #555;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: scroll;
+}
+
+.displayArea {
+    padding: 30px;
+    color: black;
+    border: 3px solid yellow;
+}
+
