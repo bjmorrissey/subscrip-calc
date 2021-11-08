@@ -60,7 +60,7 @@ const stringCalc = (chars) => {
       calcString += `&#${char.charCodeAt(0)};`;
     }
   });
-  console.log(calcString);
+  // console.log(calcString);
 
   return calcString;
 };
